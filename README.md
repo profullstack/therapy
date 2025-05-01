@@ -2,6 +2,12 @@
 
 A command-line interface for interactive AI therapy sessions in your terminal.
 
+[![GitHub](https://img.shields.io/github/license/profullstack/therapy)](https://github.com/profullstack/therapy/blob/master/LICENSE)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/profullstack/therapy)](https://github.com/profullstack/therapy/pulse)
+[![GitHub last commit](https://img.shields.io/github/last-commit/profullstack/therapy)](https://github.com/profullstack/therapy/commits/master)
+[![npm version](https://img.shields.io/npm/v/@profullstack/therapy)](https://www.npmjs.com/package/@profullstack/therapy)
+[![npm downloads](https://img.shields.io/npm/dm/@profullstack/therapy)](https://www.npmjs.com/package/@profullstack/therapy)
+
 ## Features
 
 - 🧠 Multiple therapy modes (CBT, Person-centered, Trauma-informed)
