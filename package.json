@@ -1,0 +1,29 @@
+{
+  "name": "therapy-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for interacting with an AI therapist",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "therapy": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "therapy",
+    "cli",
+    "ai",
+    "mental-health",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "dotenv-flow": "^4.1.0",
+    "ora": "^7.0.1"
+  }
+}
