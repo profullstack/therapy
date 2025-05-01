@@ -1,4 +1,4 @@
-# Therapy CLI
+# @profullstack/therapy
 
 A command-line interface for interactive AI therapy sessions in your terminal.
 
@@ -18,18 +18,28 @@ A command-line interface for interactive AI therapy sessions in your terminal.
 - For OpenAI: An OpenAI API key
 - For Ollama: [Ollama](https://ollama.ai/) installed and running locally
 
+### Install globally
+
+```bash
+# Install globally using pnpm
+pnpm i -g @profullstack/therapy
+
+# Or using npm
+npm i -g @profullstack/therapy
+```
+
 ### Install from source
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/therapy-cli.git
-cd therapy-cli
+git clone https://github.com/profullstack/therapy.git
+cd therapy
 
 # Install dependencies
-npm install
+pnpm install
 
 # Link the CLI globally
-npm link
+pnpm link --global
 ```
 
 ## Configuration
