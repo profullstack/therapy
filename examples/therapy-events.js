@@ -5,8 +5,12 @@ import { EventEmitter } from 'events';
 import readline from 'readline';
 import chalk from 'chalk';
 import { fileURLToPath } from 'url';
+// For local testing, use relative imports
 import { getPromptForMode } from '../lib/prompts.js';
 import { callAI } from '../lib/ai-providers.js';
+
+// When installed as a package, use:
+// import { getPromptForMode, callAI } from '@profullstack/therapy';
 
 /**
  * EventEmitter-based therapy session
@@ -261,7 +265,10 @@ export { EventDrivenTherapy };
 /**
  * Example of how to use this module in another file:
  * 
- * import { EventDrivenTherapy } from './therapy-events.js';
+ * import { EventDrivenTherapy } from '@profullstack/therapy';
+ *
+ * // For local testing, you would use:
+ * // import { EventDrivenTherapy } from './therapy-events.js';
  * 
  * // Create a therapy session
  * const therapy = new EventDrivenTherapy({

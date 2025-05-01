@@ -1,12 +1,21 @@
 #!/usr/bin/env node
 
 // Example script demonstrating how to use the event handling module
-import { 
-  createBasicEmitter, 
-  TherapyEventEmitter, 
+// For local testing, use relative imports
+import {
+  createBasicEmitter,
+  TherapyEventEmitter,
   createTherapyEventManager,
   createOneTimeEmitter
 } from '../lib/event-examples.js';
+
+// When installed as a package, use:
+// import {
+//   createBasicEmitter,
+//   TherapyEventEmitter,
+//   createTherapyEventManager,
+//   createOneTimeEmitter
+// } from '@profullstack/therapy';
 
 // Example 1: Basic Event Emitter
 console.log('\n--- Example 1: Basic Event Emitter ---');

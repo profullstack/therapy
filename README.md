@@ -105,7 +105,7 @@ This package includes examples of how to use event handling in Node.js modules. 
 The `lib/event-examples.js` module provides several examples of event handling patterns:
 
 ```javascript
-import { createBasicEmitter } from '@profullstack/therapy/lib/event-examples.js';
+import { createBasicEmitter } from '@profullstack/therapy';
 
 // Create a basic event emitter
 const { emitter, stop } = createBasicEmitter();
@@ -124,7 +124,7 @@ setTimeout(stop, 5000);
 You can extend the EventEmitter class to create custom event-emitting classes:
 
 ```javascript
-import { TherapyEventEmitter } from '@profullstack/therapy/lib/event-examples.js';
+import { TherapyEventEmitter } from '@profullstack/therapy';
 
 const therapySession = new TherapyEventEmitter();
 
@@ -149,7 +149,7 @@ therapySession.receiveUserInput("I've been feeling stressed lately");
 For more complex scenarios, you can use factory functions that return objects with event emitters:
 
 ```javascript
-import { createTherapyEventManager } from '@profullstack/therapy/lib/event-examples.js';
+import { createTherapyEventManager } from '@profullstack/therapy';
 
 const therapyManager = createTherapyEventManager();
 const { events, EVENT_TYPES } = therapyManager;
@@ -171,7 +171,7 @@ therapyManager.processMessage("Hello, I need some help");
 The `examples/therapy-events.js` module demonstrates how to refactor the therapy application to use event-driven architecture:
 
 ```javascript
-import { EventDrivenTherapy } from '@profullstack/therapy/examples/therapy-events.js';
+import { EventDrivenTherapy } from '@profullstack/therapy';
 
 // Create a therapy session
 const therapy = new EventDrivenTherapy({
