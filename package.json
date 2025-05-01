@@ -1,5 +1,5 @@
 {
-  "name": "therapy-cli",
+  "name": "@profullstack/therapy",
   "version": "1.0.0",
   "description": "CLI tool for interacting with an AI therapist",
   "main": "index.js",
