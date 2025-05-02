@@ -210,3 +210,7 @@ This tool is not a replacement for professional mental health care. It uses AI t
 ## License
 
 MIT
+
+## Resources
+
+- [Therapy Transformer: Enhancing Mental Health Support with Large Language Models](https://arxiv.org/html/2504.12337v1)
