@@ -1,6 +1,6 @@
 {
   "name": "@profullstack/therapy",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "CLI tool for interacting with an AI therapist",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,10 @@
     "therapy": "./cli.js"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "pnpm install && node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "keywords": [
     "therapy",
