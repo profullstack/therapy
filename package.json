@@ -1,6 +1,6 @@
 {
   "name": "@profullstack/therapy",
-  "version": "1.5.9",
+  "version": "1.5.10",
   "description": "CLI tool for interacting with an AI therapist",
   "main": "index.js",
   "type": "module",
